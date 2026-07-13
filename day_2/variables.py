@@ -39,4 +39,17 @@ elif len(first_name) < len(last_name):
 else:
     print('First name and last name are of equal length')
 
+# Declaring variable numbers and performing basic arithmetic
 
+num_one = 5
+num_two = 4
+
+total = num_one + num_two 
+diff = num_two - num_one
+product = num_one * num_two
+division = num_one/num_two
+
+print(total)
+print(diff)
+print(product)
+print(division)
