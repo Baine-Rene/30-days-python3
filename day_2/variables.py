@@ -60,3 +60,13 @@ print(division)
 print(remainder)
 print(exp)
 print(floor_division)
+
+# Calculating area and circumference of a circle
+
+radius = 30
+
+area_of_circle = 3.14159 * radius ** 2
+circum_of_circle = 2 * (3.14159) * radius
+
+
+print(area_of_circle)
