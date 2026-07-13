@@ -27,3 +27,16 @@ print(type(is_light_on))
 print(type(x))
 print(type(y))
 print(type(z))
+
+# Using the len() function
+print(len(first_name))
+
+# Comparing first and last name lengths 
+if len(first_name) > len(last_name):
+    print('First name is longer than last name')
+elif len(first_name) < len(last_name):
+    print('Last name is longer than first name')
+else:
+    print('First name and last name are of equal length')
+
+
