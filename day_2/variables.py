@@ -48,8 +48,15 @@ total = num_one + num_two
 diff = num_two - num_one
 product = num_one * num_two
 division = num_one/num_two
+remainder = num_one%num_two
+exp = num_one ** num_two
+floor_division = num_one//num_two
+
 
 print(total)
 print(diff)
 print(product)
 print(division)
+print(remainder)
+print(exp)
+print(floor_division)
