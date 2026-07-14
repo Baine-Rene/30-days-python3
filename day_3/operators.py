@@ -20,3 +20,17 @@ perim = int(side_a) + int(side_b) + int(side_c)
 
 print('The perimeter for the triangle is:', perim)
 
+# Calculating the area and perimeter of a rectangle
+
+length = input("Enter the base of the rectangle: ")
+width = input("Enter the base of the rectangle: ")
+
+area = int(length) * int(width)
+perim_rec = 2 * (int(length) + int(width))
+
+print('The area of the rectangle is: ',area)
+print('The perimeter of the rectangle is:', perim_rec)
+
+
+
+
