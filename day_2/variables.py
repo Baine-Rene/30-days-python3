@@ -1,4 +1,4 @@
-# Day 1 - 30 day python challenge
+# Day 2 - 30 day python challenge
 
 first_name = 'Rene'
 last_name = 'Baine'
@@ -72,3 +72,18 @@ circum_of_circle = 2 * (3.14159) * radius
 
 print(area_of_circle)
 print(circum_of_circle)
+
+# Storing user input 
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+age = input("Enter your age: ")
+country = input("Enter your country of origin: ")
+
+
+
+print((first_name))
+print((last_name))
+print((country))
+print((city))
+print((age))
