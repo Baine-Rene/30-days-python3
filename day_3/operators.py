@@ -31,6 +31,3 @@ perim_rec = 2 * (int(length) + int(width))
 print('The area of the rectangle is: ',area)
 print('The perimeter of the rectangle is:', perim_rec)
 
-
-
-
