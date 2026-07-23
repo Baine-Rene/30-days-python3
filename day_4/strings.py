@@ -17,3 +17,11 @@ print(capital)
 lower = company.lower()
 print(lower)
 
+capitalize = company.capitalize()
+print(capitalize)
+
+title = company.title()
+print(title)
+
+swap = company.swapcase()
+print(swap)
