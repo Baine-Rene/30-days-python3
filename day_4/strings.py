@@ -5,10 +5,11 @@ space = ' '
 title = 'Thirty' + space + 'Days' + space + 'of' + space + 'Python'
 print(title)
 
-coding = 'Coding' + ' for' + ' all'
-print(coding)
+coding = ['Coding', 'for', 'all']
+result = ' '.join(coding)
+print(result)
 
-company = coding
+company = result
 print(len(company))
 
 capital = company.upper()
