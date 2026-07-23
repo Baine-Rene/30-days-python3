@@ -1,6 +1,5 @@
 # Day 4 - 30 day python challenge
 
-
 space = ' '
 title = 'Thirty' + space + 'Days' + space + 'of' + space + 'Python'
 print(title)
@@ -26,3 +25,7 @@ print(title)
 
 swap = company.swapcase()
 print(swap)
+
+compnay_slice = company[0:1]
+print(compnay_slice)
+
