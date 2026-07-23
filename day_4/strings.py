@@ -29,3 +29,5 @@ print(swap)
 compnay_slice = company[0:1]
 print(compnay_slice)
 
+substring = 'Coding'
+print(company.rindex(substring))
