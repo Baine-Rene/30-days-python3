@@ -33,3 +33,9 @@ substring = 'Coding'
 print(company.rindex(substring))
 
 print(company.replace('Coding', 'Python'))
+
+title = ['Python', 'for', 'Everyone']
+title_result = ' '.join(title)
+print(title_result)
+
+print(title_result.replace('Everyone', 'All'))
