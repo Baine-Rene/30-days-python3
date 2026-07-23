@@ -31,3 +31,5 @@ print(compnay_slice)
 
 substring = 'Coding'
 print(company.rindex(substring))
+
+print(company.replace('Coding', 'Python'))
