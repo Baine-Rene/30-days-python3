@@ -27,6 +27,17 @@ print(companies[0])
 print(companies[2])
 print(companies[4])
 
+#first element in the list is capital
+companies[0] = companies[0].upper()
+
+#List reversed
+companies.reverse()
+
+print(companies)
+
+#Listed sorted in ascending order
+companies.sort()
+
 print(companies)
 
 # Joining two lists
