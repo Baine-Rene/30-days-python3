@@ -20,6 +20,7 @@ print('The number of companies on the list is', len(companies))
 
 companies[0] = 'Nvidia'
 
+# Adding an element to the companies list
 companies.append('Microsoft')
 
 print(companies[0])
@@ -27,3 +28,11 @@ print(companies[2])
 print(companies[4])
 
 print(companies)
+
+# Joining two lists
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+fullstack = front_end + back_end
+print(fullstack)
