@@ -32,13 +32,19 @@ companies[0] = companies[0].upper()
 
 #List reversed
 companies.reverse()
-
 print(companies)
 
 #Listed sorted in ascending order
 companies.sort()
-
 print(companies)
+
+#Slicing the first three companies
+top_three = companies[0:3]
+print(top_three)
+
+#Slicing the bottom three companies
+bottom_three = companies[-5:-2]
+print(bottom_three)
 
 # Joining two lists
 
